@@ -15,7 +15,7 @@
 </p>
 
 <div id="top" align="center">
-    In this paper, we propose a target-aware representation learning framework to enhance high-level task performance in low-light conditions. We achieve bi-directional domain alignment using image appearance and semantic features, and introduce a target highlighting strategy with saliency mechanisms and Temporal Gaussian Mixture Model to emphasize task-relevant targets. Additionally, wedesign a mask token-based representation learning scheme to learn a more robust target-aware feature. Our framework is validated through extensive experiments on CODaN, ExDark, and ARID datasets, demonstrating effectiveness in classification, detection, and action recognition tasks.
+    This is the official implementaion of paper <b><i>Watching it in Dark: A Target-aware Representation Learning Framework for High-Level Vision Tasks in Low Illumination</i></b>, which is accepted in <b><i>ECCV 2024</i></b>. In this paper, we propose a target-aware representation learning framework to enhance high-level task performance in low-light conditions. We achieve bi-directional domain alignment using image appearance and semantic features, and introduce a target highlighting strategy with saliency mechanisms and Temporal Gaussian Mixture Model to emphasize task-relevant targets. Additionally, wedesign a mask token-based representation learning scheme to learn a more robust target-aware feature. Our framework is validated through extensive experiments on CODaN, ExDark, and ARID datasets, demonstrating effectiveness in classification, detection, and action recognition tasks.
 </div>
 
 <div style="text-align: center;">
