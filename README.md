@@ -170,7 +170,7 @@ If our work is useful for your research, please consider citing:
   title={Watching it in Dark: A Target-Aware Representation Learning Framework for High-Level Vision Tasks in Low Illumination},
   author={Li, Yunan and Zhang, Yihao and Li, Shoude and Tian, Long and Quan, Dou and Li, Chaoneng and Miao, Qiguang},
   booktitle={ECCV},
-  year={2025}
+  year={2024}
 }
 ```
 
