@@ -88,7 +88,7 @@
 
 #### Dataset Preparation
 
-We utlized the VOCO dataset(part of the [VOC](http://host.robots.ox.ac.uk/pascal/VOC/) dataset and [COCO](https://cocodataset.org/#download) dataset. The exact composition can be found in [Supplementary](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09518-supp.pdf), and we will also **be uploading our training data** in a few days), you can apply the [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) method to enhance low-light data in the test night folder. For darkening the data in the trainfolder, you may either train the  [CUT](https://github.com/taesungp/contrastive-unpaired-translation) model yourself using unpaired normal-light and low-light data for darkening the normal-light raining data, or directly use our [pre-trained model parameters](https://drive.google.com/file/d/1O-Hz28IjJ2ci_dAvY_QmDIb32CQZCGSq/view?usp=drive_link).
+We utlized the VOCO dataset(part of the [VOC](http://host.robots.ox.ac.uk/pascal/VOC/) dataset and [COCO](https://cocodataset.org/#download) dataset. The exact composition can be found in [Supplementary](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09518-supp.pdf), and we will also **be uploading our training data** in a few days), you can apply the [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE) method to enhance low-light data in the test night folder. For darkening the data in the train folder, you may either train the [CUT](https://github.com/taesungp/contrastive-unpaired-translation) model yourself using unpaired normal-light and low-light data for darkening the normal-light data, or directly use our [pre-trained model parameters](https://drive.google.com/file/d/1O-Hz28IjJ2ci_dAvY_QmDIb32CQZCGSq/view?usp=drive_link).
 
 #### Model Preparation
 
