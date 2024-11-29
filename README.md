@@ -159,3 +159,21 @@ coming soon
 ### ⛹️Action Recognition
 
 coming soon
+
+
+## Citation
+
+If our work is useful for your research, please consider citing:
+
+```
+@inproceedings{li2025watching,
+  title={Watching it in Dark: A Target-Aware Representation Learning Framework for High-Level Vision Tasks in Low Illumination},
+  author={Li, Yunan and Zhang, Yihao and Li, Shoude and Tian, Long and Quan, Dou and Li, Chaoneng and Miao, Qiguang},
+  booktitle={ECCV},
+  year={2025}
+}
+```
+
+## Acknowledgment
+
+This work is heavily based on [CIConv](https://github.com/Attila94/CIConv), [YOLOv5](https://github.com/ultralytics/yolov5), [ARID](https://github.com/xuyu0010/ARID_v1) and [Similarity Min-Max](https://github.com/Red-Fairy/ZeroShotDayNightDA). Thanks to all the authors for their great work.
