@@ -1,0 +1,904 @@
+Namespace(experiment='train_cat_lr17_by13_symask_0208_46_573264_bid_mmd', resume=False, checkpoint='checkpoints/baseline_resnet/model_best.pt', darkening_model='../darkening/checkpoints/round4/Epoch15.pth', epochs=180, batch_size=32, lr=0.0017, optimizer='adam', scheduler='step', gpu_id='0', use_BYOL=True, BYOL_weight=0.13, noise_intensity=0.025, noise_mode='pixel_patch', decreasing_lr='60,120', exp_range='0-0.2')
+Accuracy: 82.52	 Loss: 0.6789
+Accuracy: 57.52	 Loss: 2.0178
+current lr is 0.0017
+Epoch: 1	  Time: 75.18
+Loss_BYOL: 0.0706	 Loss_MMD: 0.0148	 Loss_Day: 1.1208	 				Loss_Night: 1.4042 	 Loss_Total: 2.6104 
+Accuracy: 74.36	 Loss: 0.8225
+Accuracy: 54.48	 Loss: 1.5545
+current lr is 0.0017
+Epoch: 2	  Time: 73.10
+Loss_BYOL: 0.0515	 Loss_MMD: 0.0145	 Loss_Day: 0.9652	 				Loss_Night: 1.1976 	 Loss_Total: 2.2288 
+Accuracy: 71.96	 Loss: 0.8608
+Accuracy: 55.80	 Loss: 1.6109
+current lr is 0.0017
+Epoch: 3	  Time: 72.23
+Loss_BYOL: 0.0462	 Loss_MMD: 0.0138	 Loss_Day: 0.8977	 				Loss_Night: 1.0972 	 Loss_Total: 2.0549 
+Accuracy: 74.40	 Loss: 0.7891
+Accuracy: 56.52	 Loss: 1.4379
+current lr is 0.0017
+Epoch: 4	  Time: 72.08
+Loss_BYOL: 0.0434	 Loss_MMD: 0.0133	 Loss_Day: 0.8605	 				Loss_Night: 1.0372 	 Loss_Total: 1.9544 
+Accuracy: 75.20	 Loss: 0.7217
+Accuracy: 58.40	 Loss: 1.3677
+current lr is 0.0017
+Epoch: 5	  Time: 72.75
+Loss_BYOL: 0.0418	 Loss_MMD: 0.0132	 Loss_Day: 0.8492	 				Loss_Night: 1.0408 	 Loss_Total: 1.9451 
+Accuracy: 73.56	 Loss: 0.8676
+Accuracy: 54.92	 Loss: 1.6398
+current lr is 0.0017
+Epoch: 6	  Time: 73.26
+Loss_BYOL: 0.0400	 Loss_MMD: 0.0131	 Loss_Day: 0.8046	 				Loss_Night: 0.9835 	 Loss_Total: 1.8412 
+Accuracy: 73.00	 Loss: 0.8405
+Accuracy: 60.24	 Loss: 1.2836
+current lr is 0.0017
+Epoch: 7	  Time: 74.74
+Loss_BYOL: 0.0398	 Loss_MMD: 0.0130	 Loss_Day: 0.8217	 				Loss_Night: 0.9786 	 Loss_Total: 1.8531 
+Accuracy: 74.12	 Loss: 0.8549
+Accuracy: 54.64	 Loss: 1.6254
+current lr is 0.0017
+Epoch: 8	  Time: 72.22
+Loss_BYOL: 0.0389	 Loss_MMD: 0.0124	 Loss_Day: 0.7600	 				Loss_Night: 0.9436 	 Loss_Total: 1.7549 
+Accuracy: 74.04	 Loss: 0.7793
+Accuracy: 58.72	 Loss: 1.4102
+current lr is 0.0017
+Epoch: 9	  Time: 70.30
+Loss_BYOL: 0.0390	 Loss_MMD: 0.0126	 Loss_Day: 0.7566	 				Loss_Night: 0.9215 	 Loss_Total: 1.7298 
+Accuracy: 75.68	 Loss: 0.7320
+Accuracy: 61.40	 Loss: 1.3222
+current lr is 0.0017
+Epoch: 10	  Time: 72.55
+Loss_BYOL: 0.0389	 Loss_MMD: 0.0127	 Loss_Day: 0.7694	 				Loss_Night: 0.9133 	 Loss_Total: 1.7343 
+Accuracy: 78.52	 Loss: 0.6973
+Accuracy: 55.72	 Loss: 1.5459
+current lr is 0.0017
+Epoch: 11	  Time: 70.79
+Loss_BYOL: 0.0385	 Loss_MMD: 0.0130	 Loss_Day: 0.7595	 				Loss_Night: 0.8845 	 Loss_Total: 1.6955 
+Accuracy: 76.16	 Loss: 0.7525
+Accuracy: 61.20	 Loss: 1.3453
+current lr is 0.0017
+Epoch: 12	  Time: 70.80
+Loss_BYOL: 0.0367	 Loss_MMD: 0.0125	 Loss_Day: 0.7033	 				Loss_Night: 0.8224 	 Loss_Total: 1.5749 
+Accuracy: 74.80	 Loss: 0.7683
+Accuracy: 57.92	 Loss: 1.4159
+current lr is 0.0017
+Epoch: 13	  Time: 70.15
+Loss_BYOL: 0.0371	 Loss_MMD: 0.0130	 Loss_Day: 0.7035	 				Loss_Night: 0.8328 	 Loss_Total: 1.5863 
+Accuracy: 76.24	 Loss: 0.7341
+Accuracy: 61.24	 Loss: 1.2601
+current lr is 0.0017
+Epoch: 14	  Time: 70.20
+Loss_BYOL: 0.0374	 Loss_MMD: 0.0132	 Loss_Day: 0.7132	 				Loss_Night: 0.8440 	 Loss_Total: 1.6078 
+Accuracy: 78.20	 Loss: 0.6407
+Accuracy: 57.80	 Loss: 1.3919
+current lr is 0.0017
+Epoch: 15	  Time: 70.95
+Loss_BYOL: 0.0364	 Loss_MMD: 0.0135	 Loss_Day: 0.6690	 				Loss_Night: 0.8191 	 Loss_Total: 1.5380 
+Accuracy: 78.16	 Loss: 0.6740
+Accuracy: 62.24	 Loss: 1.3013
+current lr is 0.0017
+Epoch: 16	  Time: 70.27
+Loss_BYOL: 0.0355	 Loss_MMD: 0.0135	 Loss_Day: 0.6617	 				Loss_Night: 0.7796 	 Loss_Total: 1.4903 
+Accuracy: 76.36	 Loss: 0.7981
+Accuracy: 60.36	 Loss: 1.4772
+current lr is 0.0017
+Epoch: 17	  Time: 70.40
+Loss_BYOL: 0.0376	 Loss_MMD: 0.0135	 Loss_Day: 0.6532	 				Loss_Night: 0.7940 	 Loss_Total: 1.4983 
+Accuracy: 76.08	 Loss: 0.7333
+Accuracy: 60.36	 Loss: 1.3228
+current lr is 0.0017
+Epoch: 18	  Time: 72.59
+Loss_BYOL: 0.0376	 Loss_MMD: 0.0129	 Loss_Day: 0.6566	 				Loss_Night: 0.7836 	 Loss_Total: 1.4906 
+Accuracy: 77.48	 Loss: 0.6898
+Accuracy: 59.32	 Loss: 1.3619
+current lr is 0.0017
+Epoch: 19	  Time: 70.11
+Loss_BYOL: 0.0369	 Loss_MMD: 0.0133	 Loss_Day: 0.6404	 				Loss_Night: 0.7760 	 Loss_Total: 1.4665 
+Accuracy: 77.92	 Loss: 0.6638
+Accuracy: 65.28	 Loss: 1.1788
+current lr is 0.0017
+Epoch: 20	  Time: 69.85
+Loss_BYOL: 0.0359	 Loss_MMD: 0.0133	 Loss_Day: 0.6149	 				Loss_Night: 0.7522 	 Loss_Total: 1.4162 
+Accuracy: 78.32	 Loss: 0.6299
+Accuracy: 61.84	 Loss: 1.2772
+current lr is 0.0017
+Epoch: 21	  Time: 68.98
+Loss_BYOL: 0.0347	 Loss_MMD: 0.0134	 Loss_Day: 0.5864	 				Loss_Night: 0.6998 	 Loss_Total: 1.3343 
+Accuracy: 74.92	 Loss: 0.8295
+Accuracy: 60.24	 Loss: 1.4436
+current lr is 0.0017
+Epoch: 22	  Time: 69.95
+Loss_BYOL: 0.0357	 Loss_MMD: 0.0136	 Loss_Day: 0.6102	 				Loss_Night: 0.7242 	 Loss_Total: 1.3837 
+Accuracy: 79.40	 Loss: 0.6308
+Accuracy: 65.48	 Loss: 1.2033
+current lr is 0.0017
+Epoch: 23	  Time: 71.32
+Loss_BYOL: 0.0357	 Loss_MMD: 0.0131	 Loss_Day: 0.5858	 				Loss_Night: 0.6904 	 Loss_Total: 1.3250 
+Accuracy: 81.04	 Loss: 0.5719
+Accuracy: 64.88	 Loss: 1.2094
+current lr is 0.0017
+Epoch: 24	  Time: 71.43
+Loss_BYOL: 0.0358	 Loss_MMD: 0.0136	 Loss_Day: 0.5750	 				Loss_Night: 0.7005 	 Loss_Total: 1.3248 
+Accuracy: 80.00	 Loss: 0.6089
+Accuracy: 63.60	 Loss: 1.3059
+current lr is 0.0017
+Epoch: 25	  Time: 69.53
+Loss_BYOL: 0.0355	 Loss_MMD: 0.0141	 Loss_Day: 0.5713	 				Loss_Night: 0.6792 	 Loss_Total: 1.3001 
+Accuracy: 82.12	 Loss: 0.5431
+Accuracy: 65.44	 Loss: 1.2143
+current lr is 0.0017
+Epoch: 26	  Time: 69.14
+Loss_BYOL: 0.0352	 Loss_MMD: 0.0137	 Loss_Day: 0.5505	 				Loss_Night: 0.6591 	 Loss_Total: 1.2586 
+Accuracy: 81.00	 Loss: 0.6253
+Accuracy: 62.56	 Loss: 1.3806
+current lr is 0.0017
+Epoch: 27	  Time: 70.07
+Loss_BYOL: 0.0354	 Loss_MMD: 0.0140	 Loss_Day: 0.5586	 				Loss_Night: 0.6716 	 Loss_Total: 1.2796 
+Accuracy: 79.64	 Loss: 0.6108
+Accuracy: 63.96	 Loss: 1.2303
+current lr is 0.0017
+Epoch: 28	  Time: 69.40
+Loss_BYOL: 0.0343	 Loss_MMD: 0.0134	 Loss_Day: 0.5385	 				Loss_Night: 0.6595 	 Loss_Total: 1.2457 
+Accuracy: 81.36	 Loss: 0.5955
+Accuracy: 63.92	 Loss: 1.2891
+current lr is 0.0017
+Epoch: 29	  Time: 69.11
+Loss_BYOL: 0.0331	 Loss_MMD: 0.0134	 Loss_Day: 0.5443	 				Loss_Night: 0.6462 	 Loss_Total: 1.2370 
+Accuracy: 78.24	 Loss: 0.6806
+Accuracy: 61.68	 Loss: 1.3232
+current lr is 0.0017
+Epoch: 30	  Time: 69.95
+Loss_BYOL: 0.0323	 Loss_MMD: 0.0134	 Loss_Day: 0.5309	 				Loss_Night: 0.6442 	 Loss_Total: 1.2209 
+Accuracy: 82.04	 Loss: 0.5821
+Accuracy: 64.88	 Loss: 1.2980
+current lr is 0.0017
+Epoch: 31	  Time: 69.30
+Loss_BYOL: 0.0314	 Loss_MMD: 0.0135	 Loss_Day: 0.5015	 				Loss_Night: 0.6135 	 Loss_Total: 1.1600 
+Accuracy: 82.92	 Loss: 0.5372
+Accuracy: 66.64	 Loss: 1.1800
+current lr is 0.0017
+Epoch: 32	  Time: 69.32
+Loss_BYOL: 0.0307	 Loss_MMD: 0.0134	 Loss_Day: 0.5103	 				Loss_Night: 0.6232 	 Loss_Total: 1.1776 
+Accuracy: 80.96	 Loss: 0.5794
+Accuracy: 64.80	 Loss: 1.2555
+current lr is 0.0017
+Epoch: 33	  Time: 69.63
+Loss_BYOL: 0.0301	 Loss_MMD: 0.0134	 Loss_Day: 0.4891	 				Loss_Night: 0.5945 	 Loss_Total: 1.1271 
+Accuracy: 81.72	 Loss: 0.5900
+Accuracy: 64.48	 Loss: 1.3039
+current lr is 0.0017
+Epoch: 34	  Time: 69.62
+Loss_BYOL: 0.0291	 Loss_MMD: 0.0132	 Loss_Day: 0.4575	 				Loss_Night: 0.5703 	 Loss_Total: 1.0702 
+Accuracy: 80.96	 Loss: 0.5930
+Accuracy: 68.24	 Loss: 1.1772
+current lr is 0.0017
+Epoch: 35	  Time: 71.16
+Loss_BYOL: 0.0293	 Loss_MMD: 0.0130	 Loss_Day: 0.4807	 				Loss_Night: 0.5854 	 Loss_Total: 1.1084 
+Accuracy: 81.68	 Loss: 0.6194
+Accuracy: 65.92	 Loss: 1.1889
+current lr is 0.0017
+Epoch: 36	  Time: 70.16
+Loss_BYOL: 0.0296	 Loss_MMD: 0.0135	 Loss_Day: 0.4754	 				Loss_Night: 0.5945 	 Loss_Total: 1.1129 
+Accuracy: 74.80	 Loss: 0.7703
+Accuracy: 57.72	 Loss: 1.4809
+current lr is 0.0017
+Epoch: 37	  Time: 68.33
+Loss_BYOL: 0.0284	 Loss_MMD: 0.0135	 Loss_Day: 0.4687	 				Loss_Night: 0.5587 	 Loss_Total: 1.0692 
+Accuracy: 83.20	 Loss: 0.5314
+Accuracy: 67.88	 Loss: 1.1196
+current lr is 0.0017
+Epoch: 38	  Time: 71.39
+Loss_BYOL: 0.0286	 Loss_MMD: 0.0136	 Loss_Day: 0.4777	 				Loss_Night: 0.5836 	 Loss_Total: 1.1036 
+Accuracy: 80.36	 Loss: 0.6662
+Accuracy: 62.20	 Loss: 1.4553
+current lr is 0.0017
+Epoch: 39	  Time: 68.71
+Loss_BYOL: 0.0279	 Loss_MMD: 0.0137	 Loss_Day: 0.4694	 				Loss_Night: 0.5756 	 Loss_Total: 1.0867 
+Accuracy: 77.92	 Loss: 0.6585
+Accuracy: 61.16	 Loss: 1.3697
+current lr is 0.0017
+Epoch: 40	  Time: 69.02
+Loss_BYOL: 0.0268	 Loss_MMD: 0.0137	 Loss_Day: 0.4371	 				Loss_Night: 0.5479 	 Loss_Total: 1.0255 
+Accuracy: 78.52	 Loss: 0.6558
+Accuracy: 63.96	 Loss: 1.1938
+current lr is 0.0017
+Epoch: 41	  Time: 68.66
+Loss_BYOL: 0.0272	 Loss_MMD: 0.0138	 Loss_Day: 0.4569	 				Loss_Night: 0.5727 	 Loss_Total: 1.0707 
+Accuracy: 79.20	 Loss: 0.6481
+Accuracy: 64.88	 Loss: 1.2175
+current lr is 0.0017
+Epoch: 42	  Time: 71.25
+Loss_BYOL: 0.0273	 Loss_MMD: 0.0138	 Loss_Day: 0.4296	 				Loss_Night: 0.5466 	 Loss_Total: 1.0173 
+Accuracy: 79.92	 Loss: 0.6681
+Accuracy: 63.04	 Loss: 1.3153
+current lr is 0.0017
+Epoch: 43	  Time: 69.15
+Loss_BYOL: 0.0275	 Loss_MMD: 0.0140	 Loss_Day: 0.4499	 				Loss_Night: 0.5389 	 Loss_Total: 1.0302 
+Accuracy: 80.24	 Loss: 0.6724
+Accuracy: 63.84	 Loss: 1.3687
+current lr is 0.0017
+Epoch: 44	  Time: 69.30
+Loss_BYOL: 0.0272	 Loss_MMD: 0.0142	 Loss_Day: 0.4387	 				Loss_Night: 0.5449 	 Loss_Total: 1.0249 
+Accuracy: 81.04	 Loss: 0.6309
+Accuracy: 66.52	 Loss: 1.2634
+current lr is 0.0017
+Epoch: 45	  Time: 70.20
+Loss_BYOL: 0.0273	 Loss_MMD: 0.0137	 Loss_Day: 0.4342	 				Loss_Night: 0.5475 	 Loss_Total: 1.0227 
+Accuracy: 79.88	 Loss: 0.6409
+Accuracy: 62.32	 Loss: 1.5639
+current lr is 0.0017
+Epoch: 46	  Time: 67.32
+Loss_BYOL: 0.0260	 Loss_MMD: 0.0136	 Loss_Day: 0.4175	 				Loss_Night: 0.5112 	 Loss_Total: 0.9683 
+Accuracy: 81.64	 Loss: 0.5820
+Accuracy: 64.60	 Loss: 1.3126
+current lr is 0.0017
+Epoch: 47	  Time: 68.65
+Loss_BYOL: 0.0264	 Loss_MMD: 0.0141	 Loss_Day: 0.4162	 				Loss_Night: 0.5191 	 Loss_Total: 0.9758 
+Accuracy: 82.80	 Loss: 0.5491
+Accuracy: 66.12	 Loss: 1.2512
+current lr is 0.0017
+Epoch: 48	  Time: 68.86
+Loss_BYOL: 0.0266	 Loss_MMD: 0.0141	 Loss_Day: 0.4147	 				Loss_Night: 0.5268 	 Loss_Total: 0.9823 
+Accuracy: 81.80	 Loss: 0.5799
+Accuracy: 64.60	 Loss: 1.3081
+current lr is 0.0017
+Epoch: 49	  Time: 69.30
+Loss_BYOL: 0.0254	 Loss_MMD: 0.0143	 Loss_Day: 0.4193	 				Loss_Night: 0.5162 	 Loss_Total: 0.9752 
+Accuracy: 79.52	 Loss: 0.7050
+Accuracy: 66.00	 Loss: 1.1902
+current lr is 0.0017
+Epoch: 50	  Time: 68.57
+Loss_BYOL: 0.0261	 Loss_MMD: 0.0143	 Loss_Day: 0.4096	 				Loss_Night: 0.5194 	 Loss_Total: 0.9694 
+Accuracy: 84.80	 Loss: 0.5032
+Accuracy: 67.28	 Loss: 1.2139
+current lr is 0.0017
+Epoch: 51	  Time: 68.97
+Loss_BYOL: 0.0254	 Loss_MMD: 0.0137	 Loss_Day: 0.4134	 				Loss_Night: 0.5210 	 Loss_Total: 0.9735 
+Accuracy: 82.28	 Loss: 0.5795
+Accuracy: 64.60	 Loss: 1.3497
+current lr is 0.0017
+Epoch: 52	  Time: 69.13
+Loss_BYOL: 0.0253	 Loss_MMD: 0.0135	 Loss_Day: 0.4084	 				Loss_Night: 0.5028 	 Loss_Total: 0.9500 
+Accuracy: 82.04	 Loss: 0.5820
+Accuracy: 66.16	 Loss: 1.3501
+current lr is 0.0017
+Epoch: 53	  Time: 68.95
+Loss_BYOL: 0.0233	 Loss_MMD: 0.0137	 Loss_Day: 0.3818	 				Loss_Night: 0.4690 	 Loss_Total: 0.8878 
+Accuracy: 77.68	 Loss: 0.7321
+Accuracy: 63.44	 Loss: 1.3884
+current lr is 0.0017
+Epoch: 54	  Time: 69.01
+Loss_BYOL: 0.0242	 Loss_MMD: 0.0141	 Loss_Day: 0.4154	 				Loss_Night: 0.4959 	 Loss_Total: 0.9496 
+Accuracy: 84.00	 Loss: 0.5206
+Accuracy: 66.68	 Loss: 1.2462
+current lr is 0.0017
+Epoch: 55	  Time: 68.64
+Loss_BYOL: 0.0230	 Loss_MMD: 0.0138	 Loss_Day: 0.3807	 				Loss_Night: 0.4655 	 Loss_Total: 0.8830 
+Accuracy: 84.44	 Loss: 0.5350
+Accuracy: 68.56	 Loss: 1.2354
+current lr is 0.0017
+Epoch: 56	  Time: 69.39
+Loss_BYOL: 0.0227	 Loss_MMD: 0.0144	 Loss_Day: 0.3732	 				Loss_Night: 0.4671 	 Loss_Total: 0.8774 
+Accuracy: 82.72	 Loss: 0.5806
+Accuracy: 63.88	 Loss: 1.4544
+current lr is 0.0017
+Epoch: 57	  Time: 68.27
+Loss_BYOL: 0.0214	 Loss_MMD: 0.0137	 Loss_Day: 0.3605	 				Loss_Night: 0.4540 	 Loss_Total: 0.8496 
+Accuracy: 82.40	 Loss: 0.6172
+Accuracy: 66.80	 Loss: 1.3716
+current lr is 0.0017
+Epoch: 58	  Time: 67.77
+Loss_BYOL: 0.0218	 Loss_MMD: 0.0143	 Loss_Day: 0.3748	 				Loss_Night: 0.4549 	 Loss_Total: 0.8659 
+Accuracy: 82.96	 Loss: 0.5731
+Accuracy: 67.20	 Loss: 1.2384
+current lr is 0.0017
+Epoch: 59	  Time: 68.60
+Loss_BYOL: 0.0213	 Loss_MMD: 0.0144	 Loss_Day: 0.3649	 				Loss_Night: 0.4675 	 Loss_Total: 0.8681 
+Accuracy: 82.28	 Loss: 0.6181
+Accuracy: 65.80	 Loss: 1.3615
+current lr is 0.0017
+Epoch: 60	  Time: 68.89
+Loss_BYOL: 0.0206	 Loss_MMD: 0.0133	 Loss_Day: 0.3567	 				Loss_Night: 0.4452 	 Loss_Total: 0.8358 
+Accuracy: 83.52	 Loss: 0.5696
+Accuracy: 68.88	 Loss: 1.1329
+current lr is 0.00017
+Epoch: 61	  Time: 67.66
+Loss_BYOL: 0.0194	 Loss_MMD: 0.0143	 Loss_Day: 0.2777	 				Loss_Night: 0.3567 	 Loss_Total: 0.6681 
+Accuracy: 85.76	 Loss: 0.5204
+Accuracy: 69.84	 Loss: 1.1711
+current lr is 0.00017
+Epoch: 62	  Time: 69.87
+Loss_BYOL: 0.0186	 Loss_MMD: 0.0135	 Loss_Day: 0.2353	 				Loss_Night: 0.3146 	 Loss_Total: 0.5821 
+Accuracy: 75.84	 Loss: 0.7541
+Accuracy: 54.88	 Loss: 1.7044
+current lr is 0.00017
+Epoch: 63	  Time: 71.27
+Loss_BYOL: 0.0195	 Loss_MMD: 0.0140	 Loss_Day: 0.2456	 				Loss_Night: 0.3263 	 Loss_Total: 0.6053 
+Accuracy: 86.04	 Loss: 0.4898
+Accuracy: 71.08	 Loss: 1.1826
+current lr is 0.00017
+Epoch: 64	  Time: 69.89
+Loss_BYOL: 0.0193	 Loss_MMD: 0.0139	 Loss_Day: 0.2404	 				Loss_Night: 0.3148 	 Loss_Total: 0.5883 
+Accuracy: 84.40	 Loss: 0.5203
+Accuracy: 67.20	 Loss: 1.2882
+current lr is 0.00017
+Epoch: 65	  Time: 70.19
+Loss_BYOL: 0.0183	 Loss_MMD: 0.0138	 Loss_Day: 0.2265	 				Loss_Night: 0.2768 	 Loss_Total: 0.5354 
+Accuracy: 86.60	 Loss: 0.4678
+Accuracy: 69.72	 Loss: 1.2099
+current lr is 0.00017
+Epoch: 66	  Time: 69.69
+Loss_BYOL: 0.0181	 Loss_MMD: 0.0140	 Loss_Day: 0.2119	 				Loss_Night: 0.2901 	 Loss_Total: 0.5341 
+Accuracy: 86.72	 Loss: 0.4702
+Accuracy: 70.84	 Loss: 1.1744
+current lr is 0.00017
+Epoch: 67	  Time: 70.31
+Loss_BYOL: 0.0182	 Loss_MMD: 0.0143	 Loss_Day: 0.2249	 				Loss_Night: 0.2990 	 Loss_Total: 0.5563 
+Accuracy: 85.88	 Loss: 0.5066
+Accuracy: 69.88	 Loss: 1.2607
+current lr is 0.00017
+Epoch: 68	  Time: 70.42
+Loss_BYOL: 0.0178	 Loss_MMD: 0.0141	 Loss_Day: 0.2020	 				Loss_Night: 0.2736 	 Loss_Total: 0.5074 
+Accuracy: 86.60	 Loss: 0.4935
+Accuracy: 69.88	 Loss: 1.2471
+current lr is 0.00017
+Epoch: 69	  Time: 69.08
+Loss_BYOL: 0.0171	 Loss_MMD: 0.0135	 Loss_Day: 0.1817	 				Loss_Night: 0.2522 	 Loss_Total: 0.4645 
+Accuracy: 87.48	 Loss: 0.4644
+Accuracy: 71.56	 Loss: 1.1933
+current lr is 0.00017
+Epoch: 70	  Time: 70.35
+Loss_BYOL: 0.0177	 Loss_MMD: 0.0138	 Loss_Day: 0.1917	 				Loss_Night: 0.2643 	 Loss_Total: 0.4875 
+Accuracy: 86.44	 Loss: 0.5051
+Accuracy: 70.32	 Loss: 1.2396
+current lr is 0.00017
+Epoch: 71	  Time: 67.58
+Loss_BYOL: 0.0171	 Loss_MMD: 0.0134	 Loss_Day: 0.1782	 				Loss_Night: 0.2472 	 Loss_Total: 0.4559 
+Accuracy: 85.68	 Loss: 0.4854
+Accuracy: 69.64	 Loss: 1.2343
+current lr is 0.00017
+Epoch: 72	  Time: 69.02
+Loss_BYOL: 0.0171	 Loss_MMD: 0.0135	 Loss_Day: 0.1830	 				Loss_Night: 0.2492 	 Loss_Total: 0.4627 
+Accuracy: 86.72	 Loss: 0.5016
+Accuracy: 71.56	 Loss: 1.2162
+current lr is 0.00017
+Epoch: 73	  Time: 69.94
+Loss_BYOL: 0.0166	 Loss_MMD: 0.0133	 Loss_Day: 0.1745	 				Loss_Night: 0.2436 	 Loss_Total: 0.4480 
+Accuracy: 85.88	 Loss: 0.5153
+Accuracy: 69.68	 Loss: 1.3034
+current lr is 0.00017
+Epoch: 74	  Time: 69.64
+Loss_BYOL: 0.0167	 Loss_MMD: 0.0144	 Loss_Day: 0.1861	 				Loss_Night: 0.2595 	 Loss_Total: 0.4767 
+Accuracy: 84.64	 Loss: 0.5584
+Accuracy: 66.96	 Loss: 1.3067
+current lr is 0.00017
+Epoch: 75	  Time: 68.95
+Loss_BYOL: 0.0168	 Loss_MMD: 0.0137	 Loss_Day: 0.1815	 				Loss_Night: 0.2515 	 Loss_Total: 0.4635 
+Accuracy: 86.56	 Loss: 0.4994
+Accuracy: 70.52	 Loss: 1.2620
+current lr is 0.00017
+Epoch: 76	  Time: 68.94
+Loss_BYOL: 0.0162	 Loss_MMD: 0.0139	 Loss_Day: 0.1739	 				Loss_Night: 0.2397 	 Loss_Total: 0.4437 
+Accuracy: 85.60	 Loss: 0.5483
+Accuracy: 69.40	 Loss: 1.3452
+current lr is 0.00017
+Epoch: 77	  Time: 69.52
+Loss_BYOL: 0.0166	 Loss_MMD: 0.0135	 Loss_Day: 0.1913	 				Loss_Night: 0.2518 	 Loss_Total: 0.4732 
+Accuracy: 85.60	 Loss: 0.5353
+Accuracy: 70.44	 Loss: 1.2916
+current lr is 0.00017
+Epoch: 78	  Time: 69.23
+Loss_BYOL: 0.0157	 Loss_MMD: 0.0137	 Loss_Day: 0.1674	 				Loss_Night: 0.2265 	 Loss_Total: 0.4233 
+Accuracy: 86.16	 Loss: 0.5168
+Accuracy: 70.56	 Loss: 1.2932
+current lr is 0.00017
+Epoch: 79	  Time: 68.82
+Loss_BYOL: 0.0163	 Loss_MMD: 0.0136	 Loss_Day: 0.1748	 				Loss_Night: 0.2487 	 Loss_Total: 0.4533 
+Accuracy: 85.28	 Loss: 0.5568
+Accuracy: 66.44	 Loss: 1.4480
+current lr is 0.00017
+Epoch: 80	  Time: 68.88
+Loss_BYOL: 0.0160	 Loss_MMD: 0.0143	 Loss_Day: 0.1754	 				Loss_Night: 0.2448 	 Loss_Total: 0.4504 
+Accuracy: 86.12	 Loss: 0.5375
+Accuracy: 68.36	 Loss: 1.3836
+current lr is 0.00017
+Epoch: 81	  Time: 70.53
+Loss_BYOL: 0.0159	 Loss_MMD: 0.0146	 Loss_Day: 0.1833	 				Loss_Night: 0.2548 	 Loss_Total: 0.4687 
+Accuracy: 85.48	 Loss: 0.5589
+Accuracy: 68.56	 Loss: 1.3436
+current lr is 0.00017
+Epoch: 82	  Time: 69.56
+Loss_BYOL: 0.0154	 Loss_MMD: 0.0140	 Loss_Day: 0.1632	 				Loss_Night: 0.2278 	 Loss_Total: 0.4203 
+Accuracy: 82.00	 Loss: 0.6721
+Accuracy: 62.00	 Loss: 1.6429
+current lr is 0.00017
+Epoch: 83	  Time: 69.34
+Loss_BYOL: 0.0157	 Loss_MMD: 0.0138	 Loss_Day: 0.1770	 				Loss_Night: 0.2253 	 Loss_Total: 0.4317 
+Accuracy: 85.76	 Loss: 0.5326
+Accuracy: 69.04	 Loss: 1.2788
+current lr is 0.00017
+Epoch: 84	  Time: 68.90
+Loss_BYOL: 0.0155	 Loss_MMD: 0.0139	 Loss_Day: 0.1645	 				Loss_Night: 0.2302 	 Loss_Total: 0.4241 
+Accuracy: 85.16	 Loss: 0.5672
+Accuracy: 68.76	 Loss: 1.3619
+current lr is 0.00017
+Epoch: 85	  Time: 69.16
+Loss_BYOL: 0.0151	 Loss_MMD: 0.0140	 Loss_Day: 0.1677	 				Loss_Night: 0.2237 	 Loss_Total: 0.4205 
+Accuracy: 86.84	 Loss: 0.5192
+Accuracy: 70.72	 Loss: 1.2975
+current lr is 0.00017
+Epoch: 86	  Time: 69.25
+Loss_BYOL: 0.0150	 Loss_MMD: 0.0138	 Loss_Day: 0.1597	 				Loss_Night: 0.2126 	 Loss_Total: 0.4012 
+Accuracy: 86.76	 Loss: 0.5016
+Accuracy: 70.00	 Loss: 1.2429
+current lr is 0.00017
+Epoch: 87	  Time: 69.20
+Loss_BYOL: 0.0146	 Loss_MMD: 0.0136	 Loss_Day: 0.1510	 				Loss_Night: 0.2021 	 Loss_Total: 0.3813 
+Accuracy: 85.24	 Loss: 0.5474
+Accuracy: 65.96	 Loss: 1.4021
+current lr is 0.00017
+Epoch: 88	  Time: 68.98
+Loss_BYOL: 0.0151	 Loss_MMD: 0.0138	 Loss_Day: 0.1667	 				Loss_Night: 0.2308 	 Loss_Total: 0.4264 
+Accuracy: 86.28	 Loss: 0.5305
+Accuracy: 69.40	 Loss: 1.3619
+current lr is 0.00017
+Epoch: 89	  Time: 69.42
+Loss_BYOL: 0.0149	 Loss_MMD: 0.0143	 Loss_Day: 0.1551	 				Loss_Night: 0.2239 	 Loss_Total: 0.4082 
+Accuracy: 86.84	 Loss: 0.5074
+Accuracy: 68.32	 Loss: 1.3352
+current lr is 0.00017
+Epoch: 90	  Time: 68.60
+Loss_BYOL: 0.0147	 Loss_MMD: 0.0140	 Loss_Day: 0.1516	 				Loss_Night: 0.2169 	 Loss_Total: 0.3971 
+Accuracy: 86.88	 Loss: 0.4872
+Accuracy: 68.96	 Loss: 1.3191
+current lr is 0.00017
+Epoch: 91	  Time: 68.95
+Loss_BYOL: 0.0145	 Loss_MMD: 0.0139	 Loss_Day: 0.1567	 				Loss_Night: 0.2006 	 Loss_Total: 0.3856 
+Accuracy: 85.84	 Loss: 0.5158
+Accuracy: 68.32	 Loss: 1.3030
+current lr is 0.00017
+Epoch: 92	  Time: 69.12
+Loss_BYOL: 0.0143	 Loss_MMD: 0.0148	 Loss_Day: 0.1565	 				Loss_Night: 0.2178 	 Loss_Total: 0.4034 
+Accuracy: 86.52	 Loss: 0.4958
+Accuracy: 69.24	 Loss: 1.3007
+current lr is 0.00017
+Epoch: 93	  Time: 68.45
+Loss_BYOL: 0.0137	 Loss_MMD: 0.0136	 Loss_Day: 0.1435	 				Loss_Night: 0.1935 	 Loss_Total: 0.3643 
+Accuracy: 84.40	 Loss: 0.5878
+Accuracy: 66.08	 Loss: 1.4734
+current lr is 0.00017
+Epoch: 94	  Time: 69.97
+Loss_BYOL: 0.0136	 Loss_MMD: 0.0137	 Loss_Day: 0.1473	 				Loss_Night: 0.1894 	 Loss_Total: 0.3639 
+Accuracy: 86.88	 Loss: 0.5471
+Accuracy: 68.76	 Loss: 1.4106
+current lr is 0.00017
+Epoch: 95	  Time: 69.18
+Loss_BYOL: 0.0140	 Loss_MMD: 0.0139	 Loss_Day: 0.1495	 				Loss_Night: 0.2089 	 Loss_Total: 0.3862 
+Accuracy: 86.60	 Loss: 0.5489
+Accuracy: 68.96	 Loss: 1.3976
+current lr is 0.00017
+Epoch: 96	  Time: 70.43
+Loss_BYOL: 0.0140	 Loss_MMD: 0.0140	 Loss_Day: 0.1520	 				Loss_Night: 0.2055 	 Loss_Total: 0.3855 
+Accuracy: 86.44	 Loss: 0.5600
+Accuracy: 68.64	 Loss: 1.4300
+current lr is 0.00017
+Epoch: 97	  Time: 68.71
+Loss_BYOL: 0.0133	 Loss_MMD: 0.0139	 Loss_Day: 0.1375	 				Loss_Night: 0.1916 	 Loss_Total: 0.3563 
+Accuracy: 86.32	 Loss: 0.5262
+Accuracy: 69.32	 Loss: 1.3369
+current lr is 0.00017
+Epoch: 98	  Time: 70.09
+Loss_BYOL: 0.0141	 Loss_MMD: 0.0136	 Loss_Day: 0.1429	 				Loss_Night: 0.1968 	 Loss_Total: 0.3674 
+Accuracy: 85.96	 Loss: 0.5509
+Accuracy: 68.64	 Loss: 1.3423
+current lr is 0.00017
+Epoch: 99	  Time: 71.37
+Loss_BYOL: 0.0135	 Loss_MMD: 0.0139	 Loss_Day: 0.1400	 				Loss_Night: 0.1979 	 Loss_Total: 0.3653 
+Accuracy: 84.92	 Loss: 0.5980
+Accuracy: 67.24	 Loss: 1.4781
+current lr is 0.00017
+Epoch: 100	  Time: 69.96
+Loss_BYOL: 0.0137	 Loss_MMD: 0.0142	 Loss_Day: 0.1402	 				Loss_Night: 0.2039 	 Loss_Total: 0.3719 
+Accuracy: 86.12	 Loss: 0.5074
+Accuracy: 67.08	 Loss: 1.2885
+current lr is 0.00017
+Epoch: 101	  Time: 69.96
+Loss_BYOL: 0.0136	 Loss_MMD: 0.0139	 Loss_Day: 0.1474	 				Loss_Night: 0.1970 	 Loss_Total: 0.3719 
+Accuracy: 86.40	 Loss: 0.5768
+Accuracy: 67.92	 Loss: 1.5486
+current lr is 0.00017
+Epoch: 102	  Time: 68.17
+Loss_BYOL: 0.0134	 Loss_MMD: 0.0137	 Loss_Day: 0.1263	 				Loss_Night: 0.1798 	 Loss_Total: 0.3332 
+Accuracy: 85.60	 Loss: 0.5666
+Accuracy: 68.12	 Loss: 1.3958
+current lr is 0.00017
+Epoch: 103	  Time: 70.00
+Loss_BYOL: 0.0136	 Loss_MMD: 0.0139	 Loss_Day: 0.1412	 				Loss_Night: 0.1992 	 Loss_Total: 0.3680 
+Accuracy: 86.36	 Loss: 0.5403
+Accuracy: 69.16	 Loss: 1.4136
+current lr is 0.00017
+Epoch: 104	  Time: 69.21
+Loss_BYOL: 0.0133	 Loss_MMD: 0.0140	 Loss_Day: 0.1370	 				Loss_Night: 0.1885 	 Loss_Total: 0.3528 
+Accuracy: 81.40	 Loss: 0.6782
+Accuracy: 61.12	 Loss: 1.7596
+current lr is 0.00017
+Epoch: 105	  Time: 69.07
+Loss_BYOL: 0.0133	 Loss_MMD: 0.0143	 Loss_Day: 0.1439	 				Loss_Night: 0.2009 	 Loss_Total: 0.3723 
+Accuracy: 86.52	 Loss: 0.5104
+Accuracy: 68.68	 Loss: 1.3441
+current lr is 0.00017
+Epoch: 106	  Time: 69.70
+Loss_BYOL: 0.0135	 Loss_MMD: 0.0143	 Loss_Day: 0.1325	 				Loss_Night: 0.1935 	 Loss_Total: 0.3538 
+Accuracy: 87.04	 Loss: 0.5095
+Accuracy: 68.48	 Loss: 1.3674
+current lr is 0.00017
+Epoch: 107	  Time: 69.26
+Loss_BYOL: 0.0134	 Loss_MMD: 0.0140	 Loss_Day: 0.1349	 				Loss_Night: 0.1881 	 Loss_Total: 0.3503 
+Accuracy: 86.96	 Loss: 0.5125
+Accuracy: 68.08	 Loss: 1.3896
+current lr is 0.00017
+Epoch: 108	  Time: 70.33
+Loss_BYOL: 0.0134	 Loss_MMD: 0.0137	 Loss_Day: 0.1313	 				Loss_Night: 0.1821 	 Loss_Total: 0.3405 
+Accuracy: 86.16	 Loss: 0.5852
+Accuracy: 69.64	 Loss: 1.4571
+current lr is 0.00017
+Epoch: 109	  Time: 68.00
+Loss_BYOL: 0.0136	 Loss_MMD: 0.0139	 Loss_Day: 0.1346	 				Loss_Night: 0.1940 	 Loss_Total: 0.3560 
+Accuracy: 86.48	 Loss: 0.5815
+Accuracy: 69.32	 Loss: 1.5251
+current lr is 0.00017
+Epoch: 110	  Time: 70.11
+Loss_BYOL: 0.0136	 Loss_MMD: 0.0141	 Loss_Day: 0.1409	 				Loss_Night: 0.1862 	 Loss_Total: 0.3549 
+Accuracy: 86.00	 Loss: 0.5275
+Accuracy: 69.12	 Loss: 1.3373
+current lr is 0.00017
+Epoch: 111	  Time: 69.77
+Loss_BYOL: 0.0130	 Loss_MMD: 0.0138	 Loss_Day: 0.1290	 				Loss_Night: 0.1723 	 Loss_Total: 0.3282 
+Accuracy: 85.28	 Loss: 0.5791
+Accuracy: 66.32	 Loss: 1.5575
+current lr is 0.00017
+Epoch: 112	  Time: 68.74
+Loss_BYOL: 0.0132	 Loss_MMD: 0.0136	 Loss_Day: 0.1333	 				Loss_Night: 0.1746 	 Loss_Total: 0.3348 
+Accuracy: 86.36	 Loss: 0.5528
+Accuracy: 69.16	 Loss: 1.3821
+current lr is 0.00017
+Epoch: 113	  Time: 68.15
+Loss_BYOL: 0.0132	 Loss_MMD: 0.0142	 Loss_Day: 0.1202	 				Loss_Night: 0.1862 	 Loss_Total: 0.3338 
+Accuracy: 86.76	 Loss: 0.5476
+Accuracy: 69.44	 Loss: 1.4292
+current lr is 0.00017
+Epoch: 114	  Time: 68.72
+Loss_BYOL: 0.0129	 Loss_MMD: 0.0135	 Loss_Day: 0.1213	 				Loss_Night: 0.1750 	 Loss_Total: 0.3227 
+Accuracy: 85.52	 Loss: 0.5839
+Accuracy: 69.64	 Loss: 1.4683
+current lr is 0.00017
+Epoch: 115	  Time: 69.12
+Loss_BYOL: 0.0133	 Loss_MMD: 0.0139	 Loss_Day: 0.1244	 				Loss_Night: 0.1938 	 Loss_Total: 0.3454 
+Accuracy: 86.04	 Loss: 0.5630
+Accuracy: 69.76	 Loss: 1.4240
+current lr is 0.00017
+Epoch: 116	  Time: 68.61
+Loss_BYOL: 0.0128	 Loss_MMD: 0.0136	 Loss_Day: 0.1218	 				Loss_Night: 0.1693 	 Loss_Total: 0.3176 
+Accuracy: 87.40	 Loss: 0.5104
+Accuracy: 69.96	 Loss: 1.3661
+current lr is 0.00017
+Epoch: 117	  Time: 69.15
+Loss_BYOL: 0.0131	 Loss_MMD: 0.0144	 Loss_Day: 0.1250	 				Loss_Night: 0.1821 	 Loss_Total: 0.3346 
+Accuracy: 84.88	 Loss: 0.5718
+Accuracy: 66.20	 Loss: 1.5277
+current lr is 0.00017
+Epoch: 118	  Time: 70.18
+Loss_BYOL: 0.0130	 Loss_MMD: 0.0138	 Loss_Day: 0.1220	 				Loss_Night: 0.1804 	 Loss_Total: 0.3292 
+Accuracy: 86.60	 Loss: 0.5373
+Accuracy: 68.84	 Loss: 1.4702
+current lr is 0.00017
+Epoch: 119	  Time: 68.84
+Loss_BYOL: 0.0127	 Loss_MMD: 0.0135	 Loss_Day: 0.1191	 				Loss_Night: 0.1633 	 Loss_Total: 0.3085 
+Accuracy: 85.12	 Loss: 0.5717
+Accuracy: 65.28	 Loss: 1.6102
+current lr is 0.00017
+Epoch: 120	  Time: 68.01
+Loss_BYOL: 0.0125	 Loss_MMD: 0.0135	 Loss_Day: 0.1178	 				Loss_Night: 0.1603 	 Loss_Total: 0.3041 
+Accuracy: 86.08	 Loss: 0.5285
+Accuracy: 68.00	 Loss: 1.3869
+current lr is 1.7000000000000003e-05
+Epoch: 121	  Time: 68.90
+Loss_BYOL: 0.0126	 Loss_MMD: 0.0140	 Loss_Day: 0.1117	 				Loss_Night: 0.1742 	 Loss_Total: 0.3126 
+Accuracy: 86.36	 Loss: 0.5750
+Accuracy: 68.12	 Loss: 1.5458
+current lr is 1.7000000000000003e-05
+Epoch: 122	  Time: 69.32
+Loss_BYOL: 0.0128	 Loss_MMD: 0.0137	 Loss_Day: 0.1170	 				Loss_Night: 0.1665 	 Loss_Total: 0.3099 
+Accuracy: 86.60	 Loss: 0.5256
+Accuracy: 68.44	 Loss: 1.4259
+current lr is 1.7000000000000003e-05
+Epoch: 123	  Time: 67.68
+Loss_BYOL: 0.0124	 Loss_MMD: 0.0139	 Loss_Day: 0.1115	 				Loss_Night: 0.1637 	 Loss_Total: 0.3015 
+Accuracy: 87.28	 Loss: 0.5172
+Accuracy: 70.16	 Loss: 1.4143
+current lr is 1.7000000000000003e-05
+Epoch: 124	  Time: 68.29
+Loss_BYOL: 0.0127	 Loss_MMD: 0.0138	 Loss_Day: 0.1074	 				Loss_Night: 0.1623 	 Loss_Total: 0.2962 
+Accuracy: 86.52	 Loss: 0.5492
+Accuracy: 68.08	 Loss: 1.4774
+current lr is 1.7000000000000003e-05
+Epoch: 125	  Time: 68.81
+Loss_BYOL: 0.0124	 Loss_MMD: 0.0136	 Loss_Day: 0.1034	 				Loss_Night: 0.1503 	 Loss_Total: 0.2796 
+Accuracy: 87.16	 Loss: 0.5187
+Accuracy: 69.68	 Loss: 1.3819
+current lr is 1.7000000000000003e-05
+Epoch: 126	  Time: 71.65
+Loss_BYOL: 0.0125	 Loss_MMD: 0.0135	 Loss_Day: 0.1086	 				Loss_Night: 0.1576 	 Loss_Total: 0.2921 
+Accuracy: 86.96	 Loss: 0.5287
+Accuracy: 68.96	 Loss: 1.4440
+current lr is 1.7000000000000003e-05
+Epoch: 127	  Time: 73.90
+Loss_BYOL: 0.0126	 Loss_MMD: 0.0136	 Loss_Day: 0.1098	 				Loss_Night: 0.1775 	 Loss_Total: 0.3134 
+Accuracy: 86.20	 Loss: 0.5607
+Accuracy: 68.68	 Loss: 1.5166
+current lr is 1.7000000000000003e-05
+Epoch: 128	  Time: 71.74
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0137	 Loss_Day: 0.1053	 				Loss_Night: 0.1434 	 Loss_Total: 0.2745 
+Accuracy: 87.24	 Loss: 0.5075
+Accuracy: 69.68	 Loss: 1.3641
+current lr is 1.7000000000000003e-05
+Epoch: 129	  Time: 71.76
+Loss_BYOL: 0.0125	 Loss_MMD: 0.0138	 Loss_Day: 0.1078	 				Loss_Night: 0.1621 	 Loss_Total: 0.2962 
+Accuracy: 86.68	 Loss: 0.5378
+Accuracy: 68.76	 Loss: 1.4863
+current lr is 1.7000000000000003e-05
+Epoch: 130	  Time: 70.82
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0134	 Loss_Day: 0.1070	 				Loss_Night: 0.1525 	 Loss_Total: 0.2850 
+Accuracy: 87.12	 Loss: 0.5229
+Accuracy: 68.52	 Loss: 1.3980
+current lr is 1.7000000000000003e-05
+Epoch: 131	  Time: 71.15
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0139	 Loss_Day: 0.1019	 				Loss_Night: 0.1552 	 Loss_Total: 0.2833 
+Accuracy: 86.80	 Loss: 0.5501
+Accuracy: 69.72	 Loss: 1.4815
+current lr is 1.7000000000000003e-05
+Epoch: 132	  Time: 72.44
+Loss_BYOL: 0.0124	 Loss_MMD: 0.0140	 Loss_Day: 0.1095	 				Loss_Night: 0.1594 	 Loss_Total: 0.2953 
+Accuracy: 85.64	 Loss: 0.5613
+Accuracy: 67.24	 Loss: 1.5200
+current lr is 1.7000000000000003e-05
+Epoch: 133	  Time: 70.34
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0141	 Loss_Day: 0.1023	 				Loss_Night: 0.1483 	 Loss_Total: 0.2768 
+Accuracy: 86.08	 Loss: 0.5477
+Accuracy: 67.12	 Loss: 1.5265
+current lr is 1.7000000000000003e-05
+Epoch: 134	  Time: 70.79
+Loss_BYOL: 0.0124	 Loss_MMD: 0.0137	 Loss_Day: 0.1061	 				Loss_Night: 0.1567 	 Loss_Total: 0.2888 
+Accuracy: 86.16	 Loss: 0.5693
+Accuracy: 68.64	 Loss: 1.4549
+current lr is 1.7000000000000003e-05
+Epoch: 135	  Time: 71.95
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0136	 Loss_Day: 0.1059	 				Loss_Night: 0.1541 	 Loss_Total: 0.2859 
+Accuracy: 87.00	 Loss: 0.5326
+Accuracy: 68.48	 Loss: 1.4954
+current lr is 1.7000000000000003e-05
+Epoch: 136	  Time: 70.53
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0134	 Loss_Day: 0.0976	 				Loss_Night: 0.1372 	 Loss_Total: 0.2601 
+Accuracy: 86.96	 Loss: 0.5144
+Accuracy: 67.92	 Loss: 1.3871
+current lr is 1.7000000000000003e-05
+Epoch: 137	  Time: 71.25
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0142	 Loss_Day: 0.1084	 				Loss_Night: 0.1635 	 Loss_Total: 0.2984 
+Accuracy: 87.16	 Loss: 0.5337
+Accuracy: 67.36	 Loss: 1.5181
+current lr is 1.7000000000000003e-05
+Epoch: 138	  Time: 71.85
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0135	 Loss_Day: 0.1003	 				Loss_Night: 0.1526 	 Loss_Total: 0.2786 
+Accuracy: 87.08	 Loss: 0.5259
+Accuracy: 69.36	 Loss: 1.3967
+current lr is 1.7000000000000003e-05
+Epoch: 139	  Time: 71.54
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0140	 Loss_Day: 0.1067	 				Loss_Night: 0.1609 	 Loss_Total: 0.2939 
+Accuracy: 87.00	 Loss: 0.5108
+Accuracy: 68.80	 Loss: 1.3735
+current lr is 1.7000000000000003e-05
+Epoch: 140	  Time: 71.05
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0135	 Loss_Day: 0.1074	 				Loss_Night: 0.1393 	 Loss_Total: 0.2722 
+Accuracy: 86.92	 Loss: 0.5277
+Accuracy: 70.16	 Loss: 1.3853
+current lr is 1.7000000000000003e-05
+Epoch: 141	  Time: 71.89
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0137	 Loss_Day: 0.1037	 				Loss_Night: 0.1476 	 Loss_Total: 0.2771 
+Accuracy: 85.76	 Loss: 0.5674
+Accuracy: 66.88	 Loss: 1.5299
+current lr is 1.7000000000000003e-05
+Epoch: 142	  Time: 71.90
+Loss_BYOL: 0.0124	 Loss_MMD: 0.0138	 Loss_Day: 0.1074	 				Loss_Night: 0.1568 	 Loss_Total: 0.2905 
+Accuracy: 87.80	 Loss: 0.5177
+Accuracy: 69.60	 Loss: 1.4104
+current lr is 1.7000000000000003e-05
+Epoch: 143	  Time: 71.25
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0141	 Loss_Day: 0.1056	 				Loss_Night: 0.1612 	 Loss_Total: 0.2932 
+Accuracy: 87.36	 Loss: 0.5360
+Accuracy: 69.32	 Loss: 1.4432
+current lr is 1.7000000000000003e-05
+Epoch: 144	  Time: 71.36
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0139	 Loss_Day: 0.1126	 				Loss_Night: 0.1548 	 Loss_Total: 0.2937 
+Accuracy: 86.76	 Loss: 0.5420
+Accuracy: 69.48	 Loss: 1.4257
+current lr is 1.7000000000000003e-05
+Epoch: 145	  Time: 71.66
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0137	 Loss_Day: 0.0981	 				Loss_Night: 0.1488 	 Loss_Total: 0.2728 
+Accuracy: 86.48	 Loss: 0.5698
+Accuracy: 69.28	 Loss: 1.5267
+current lr is 1.7000000000000003e-05
+Epoch: 146	  Time: 72.31
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0137	 Loss_Day: 0.0919	 				Loss_Night: 0.1467 	 Loss_Total: 0.2645 
+Accuracy: 87.44	 Loss: 0.5220
+Accuracy: 69.24	 Loss: 1.4477
+current lr is 1.7000000000000003e-05
+Epoch: 147	  Time: 72.23
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0137	 Loss_Day: 0.1006	 				Loss_Night: 0.1436 	 Loss_Total: 0.2700 
+Accuracy: 86.84	 Loss: 0.5420
+Accuracy: 69.00	 Loss: 1.4535
+current lr is 1.7000000000000003e-05
+Epoch: 148	  Time: 70.16
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0138	 Loss_Day: 0.0975	 				Loss_Night: 0.1390 	 Loss_Total: 0.2625 
+Accuracy: 87.12	 Loss: 0.5047
+Accuracy: 68.72	 Loss: 1.3793
+current lr is 1.7000000000000003e-05
+Epoch: 149	  Time: 70.73
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0135	 Loss_Day: 0.0955	 				Loss_Night: 0.1486 	 Loss_Total: 0.2698 
+Accuracy: 87.40	 Loss: 0.5187
+Accuracy: 69.72	 Loss: 1.4152
+current lr is 1.7000000000000003e-05
+Epoch: 150	  Time: 70.54
+Loss_BYOL: 0.0119	 Loss_MMD: 0.0137	 Loss_Day: 0.0924	 				Loss_Night: 0.1364 	 Loss_Total: 0.2544 
+Accuracy: 86.68	 Loss: 0.5586
+Accuracy: 68.68	 Loss: 1.5363
+current lr is 1.7000000000000003e-05
+Epoch: 151	  Time: 72.33
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0138	 Loss_Day: 0.1001	 				Loss_Night: 0.1419 	 Loss_Total: 0.2678 
+Accuracy: 86.84	 Loss: 0.5419
+Accuracy: 68.88	 Loss: 1.4368
+current lr is 1.7000000000000003e-05
+Epoch: 152	  Time: 72.04
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0138	 Loss_Day: 0.1103	 				Loss_Night: 0.1497 	 Loss_Total: 0.2858 
+Accuracy: 86.96	 Loss: 0.5296
+Accuracy: 69.56	 Loss: 1.4145
+current lr is 1.7000000000000003e-05
+Epoch: 153	  Time: 72.95
+Loss_BYOL: 0.0118	 Loss_MMD: 0.0135	 Loss_Day: 0.0900	 				Loss_Night: 0.1417 	 Loss_Total: 0.2571 
+Accuracy: 85.12	 Loss: 0.6211
+Accuracy: 65.80	 Loss: 1.6657
+current lr is 1.7000000000000003e-05
+Epoch: 154	  Time: 71.38
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0141	 Loss_Day: 0.1066	 				Loss_Night: 0.1525 	 Loss_Total: 0.2854 
+Accuracy: 86.72	 Loss: 0.5482
+Accuracy: 69.32	 Loss: 1.4559
+current lr is 1.7000000000000003e-05
+Epoch: 155	  Time: 71.25
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0134	 Loss_Day: 0.0974	 				Loss_Night: 0.1429 	 Loss_Total: 0.2659 
+Accuracy: 87.00	 Loss: 0.5428
+Accuracy: 68.92	 Loss: 1.4749
+current lr is 1.7000000000000003e-05
+Epoch: 156	  Time: 73.07
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0139	 Loss_Day: 0.1026	 				Loss_Night: 0.1546 	 Loss_Total: 0.2832 
+Accuracy: 86.56	 Loss: 0.5717
+Accuracy: 68.80	 Loss: 1.5258
+current lr is 1.7000000000000003e-05
+Epoch: 157	  Time: 71.71
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0138	 Loss_Day: 0.0989	 				Loss_Night: 0.1517 	 Loss_Total: 0.2766 
+Accuracy: 84.44	 Loss: 0.6011
+Accuracy: 65.40	 Loss: 1.5967
+current lr is 1.7000000000000003e-05
+Epoch: 158	  Time: 71.04
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0139	 Loss_Day: 0.1017	 				Loss_Night: 0.1448 	 Loss_Total: 0.2725 
+Accuracy: 87.04	 Loss: 0.5251
+Accuracy: 68.48	 Loss: 1.4957
+current lr is 1.7000000000000003e-05
+Epoch: 159	  Time: 72.01
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0136	 Loss_Day: 0.1001	 				Loss_Night: 0.1393 	 Loss_Total: 0.2650 
+Accuracy: 87.16	 Loss: 0.5430
+Accuracy: 70.00	 Loss: 1.4432
+current lr is 1.7000000000000003e-05
+Epoch: 160	  Time: 71.06
+Loss_BYOL: 0.0125	 Loss_MMD: 0.0141	 Loss_Day: 0.1081	 				Loss_Night: 0.1670 	 Loss_Total: 0.3017 
+Accuracy: 86.68	 Loss: 0.5307
+Accuracy: 68.16	 Loss: 1.4412
+current lr is 1.7000000000000003e-05
+Epoch: 161	  Time: 70.87
+Loss_BYOL: 0.0116	 Loss_MMD: 0.0134	 Loss_Day: 0.0946	 				Loss_Night: 0.1324 	 Loss_Total: 0.2520 
+Accuracy: 86.60	 Loss: 0.5483
+Accuracy: 68.88	 Loss: 1.4929
+current lr is 1.7000000000000003e-05
+Epoch: 162	  Time: 73.14
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0137	 Loss_Day: 0.0981	 				Loss_Night: 0.1318 	 Loss_Total: 0.2556 
+Accuracy: 86.92	 Loss: 0.5434
+Accuracy: 68.52	 Loss: 1.4755
+current lr is 1.7000000000000003e-05
+Epoch: 163	  Time: 72.11
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0138	 Loss_Day: 0.0992	 				Loss_Night: 0.1480 	 Loss_Total: 0.2733 
+Accuracy: 87.48	 Loss: 0.5237
+Accuracy: 68.88	 Loss: 1.4127
+current lr is 1.7000000000000003e-05
+Epoch: 164	  Time: 73.40
+Loss_BYOL: 0.0123	 Loss_MMD: 0.0139	 Loss_Day: 0.0979	 				Loss_Night: 0.1587 	 Loss_Total: 0.2828 
+Accuracy: 86.76	 Loss: 0.5660
+Accuracy: 68.20	 Loss: 1.4991
+current lr is 1.7000000000000003e-05
+Epoch: 165	  Time: 72.58
+Loss_BYOL: 0.0119	 Loss_MMD: 0.0142	 Loss_Day: 0.1036	 				Loss_Night: 0.1479 	 Loss_Total: 0.2776 
+Accuracy: 86.32	 Loss: 0.5868
+Accuracy: 68.92	 Loss: 1.5469
+current lr is 1.7000000000000003e-05
+Epoch: 166	  Time: 71.60
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0139	 Loss_Day: 0.0948	 				Loss_Night: 0.1485 	 Loss_Total: 0.2693 
+Accuracy: 87.20	 Loss: 0.5058
+Accuracy: 68.84	 Loss: 1.3649
+current lr is 1.7000000000000003e-05
+Epoch: 167	  Time: 71.99
+Loss_BYOL: 0.0119	 Loss_MMD: 0.0142	 Loss_Day: 0.0970	 				Loss_Night: 0.1535 	 Loss_Total: 0.2767 
+Accuracy: 79.44	 Loss: 0.7739
+Accuracy: 56.36	 Loss: 2.1608
+current lr is 1.7000000000000003e-05
+Epoch: 168	  Time: 71.57
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0138	 Loss_Day: 0.0956	 				Loss_Night: 0.1455 	 Loss_Total: 0.2670 
+Accuracy: 86.36	 Loss: 0.5581
+Accuracy: 69.12	 Loss: 1.4950
+current lr is 1.7000000000000003e-05
+Epoch: 169	  Time: 72.96
+Loss_BYOL: 0.0118	 Loss_MMD: 0.0142	 Loss_Day: 0.0901	 				Loss_Night: 0.1378 	 Loss_Total: 0.2539 
+Accuracy: 86.12	 Loss: 0.5528
+Accuracy: 67.56	 Loss: 1.4926
+current lr is 1.7000000000000003e-05
+Epoch: 170	  Time: 71.06
+Loss_BYOL: 0.0121	 Loss_MMD: 0.0141	 Loss_Day: 0.1070	 				Loss_Night: 0.1547 	 Loss_Total: 0.2880 
+Accuracy: 87.00	 Loss: 0.5474
+Accuracy: 68.48	 Loss: 1.5172
+current lr is 1.7000000000000003e-05
+Epoch: 171	  Time: 71.14
+Loss_BYOL: 0.0117	 Loss_MMD: 0.0139	 Loss_Day: 0.0920	 				Loss_Night: 0.1311 	 Loss_Total: 0.2487 
+Accuracy: 86.80	 Loss: 0.5370
+Accuracy: 68.80	 Loss: 1.4077
+current lr is 1.7000000000000003e-05
+Epoch: 172	  Time: 70.79
+Loss_BYOL: 0.0118	 Loss_MMD: 0.0136	 Loss_Day: 0.0933	 				Loss_Night: 0.1304 	 Loss_Total: 0.2490 
+Accuracy: 87.48	 Loss: 0.5221
+Accuracy: 69.36	 Loss: 1.3895
+current lr is 1.7000000000000003e-05
+Epoch: 173	  Time: 71.27
+Loss_BYOL: 0.0119	 Loss_MMD: 0.0138	 Loss_Day: 0.0930	 				Loss_Night: 0.1420 	 Loss_Total: 0.2608 
+Accuracy: 87.04	 Loss: 0.5580
+Accuracy: 68.72	 Loss: 1.4890
+current lr is 1.7000000000000003e-05
+Epoch: 174	  Time: 70.62
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0141	 Loss_Day: 0.0985	 				Loss_Night: 0.1508 	 Loss_Total: 0.2754 
+Accuracy: 87.00	 Loss: 0.5449
+Accuracy: 69.76	 Loss: 1.4416
+current lr is 1.7000000000000003e-05
+Epoch: 175	  Time: 72.52
+Loss_BYOL: 0.0120	 Loss_MMD: 0.0143	 Loss_Day: 0.1073	 				Loss_Night: 0.1579 	 Loss_Total: 0.2915 
+Accuracy: 85.52	 Loss: 0.6061
+Accuracy: 67.24	 Loss: 1.6036
+current lr is 1.7000000000000003e-05
+Epoch: 176	  Time: 71.61
+Loss_BYOL: 0.0119	 Loss_MMD: 0.0136	 Loss_Day: 0.0901	 				Loss_Night: 0.1352 	 Loss_Total: 0.2508 
+Accuracy: 87.20	 Loss: 0.5524
+Accuracy: 69.84	 Loss: 1.4623
+current lr is 1.7000000000000003e-05
+Epoch: 177	  Time: 72.00
+Loss_BYOL: 0.0119	 Loss_MMD: 0.0139	 Loss_Day: 0.0984	 				Loss_Night: 0.1360 	 Loss_Total: 0.2602 
+Accuracy: 87.08	 Loss: 0.5412
+Accuracy: 69.36	 Loss: 1.4303
+current lr is 1.7000000000000003e-05
+Epoch: 178	  Time: 72.23
+Loss_BYOL: 0.0118	 Loss_MMD: 0.0136	 Loss_Day: 0.0980	 				Loss_Night: 0.1378 	 Loss_Total: 0.2612 
+Accuracy: 85.64	 Loss: 0.5403
+Accuracy: 65.40	 Loss: 1.4814
+current lr is 1.7000000000000003e-05
+Epoch: 179	  Time: 70.86
+Loss_BYOL: 0.0115	 Loss_MMD: 0.0136	 Loss_Day: 0.0876	 				Loss_Night: 0.1236 	 Loss_Total: 0.2363 
+Accuracy: 85.40	 Loss: 0.5894
+Accuracy: 67.52	 Loss: 1.5923
+current lr is 1.7000000000000003e-05
+Epoch: 180	  Time: 72.75
+Loss_BYOL: 0.0122	 Loss_MMD: 0.0141	 Loss_Day: 0.0956	 				Loss_Night: 0.1556 	 Loss_Total: 0.2776 
+Accuracy: 86.52	 Loss: 0.5764
+Accuracy: 69.00	 Loss: 1.5493
+Best accuracy: 87.48, corresponding night accuracy: 71.56
