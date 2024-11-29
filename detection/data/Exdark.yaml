@@ -1,0 +1,22 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: datasets/Exdark  # dataset root dir
+train: train_zero/images  # train images (relative to 'path')  6471 images
+train_night: train_night/images  # train images (relative to 'path')  6471 images
+val: zdce/images  # val images (relative to 'path')  548 images
+val2: zdce/images  # val images (relative to 'path')  548 images
+test: zdce/images  # test images (optional)  1610 images
+
+# Classes
+names:
+  0: bicycle
+  1: boat
+  2: bottle
+  3: bus
+  4: car
+  5: cat
+  6: chair
+  7: cup
+  8: dog
+  9: motorbike
+  10: people
+  11: table
