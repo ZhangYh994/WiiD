@@ -152,13 +152,13 @@ python test.py  --checkpoint 'checkpoints/train/model_best.pt'
 
 #### ResNet50 on COCO&ExDark
 
-coming soon
+coming soon.
 
 
 
 ### ⛹️Action Recognition
 
-coming soon
+coming soon.
 
 
 ## Citation
